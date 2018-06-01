@@ -1,0 +1,353 @@
+@media (min-width: 0px) {
+	html {
+	    font-size: 12px;
+	}
+	/*.icon {
+		display:none !important;
+	}*/
+}
+
+@media (min-width: 576px) {
+	html {
+	    font-size: 12px;  
+	}
+	/*.icon {
+		display:none !important;
+	}*/
+}
+
+@media (min-width: 800px) {
+	html {
+	    font-size: 12px;
+	}
+
+}
+
+@media (min-width: 768px) {
+	.header .icon {
+		/*color: red !important;
+		display:none !important;*/
+	}
+}
+
+/*
+@color-blue: #32b2e6;
+
+ <div class = 'superheart'>
+                <button class="heart-button">
+                  <i class="fa fa-heart white indent" aria-hidden="false"></i>
+                </button>
+                <img src="img/img2.jpg">
+                <div class='grey'>Esteban Montoya</div>
+              </div>
+
+
+
+*/
+
+/*@font-face default-my {
+	toff: url(./font);
+	wow: ;
+}*/
+
+.band {
+	background-color: black;
+	width:100%;
+	height: 6rem;
+	font-family: default-my;
+
+}
+
+.white {
+	color:white;
+	display:inline-block;
+}
+
+.orange {
+	color:orange;
+	display:inline-block;
+}
+
+.grey {
+	color:grey;
+	display:inline-block;
+}
+
+#rowOfElements {
+	padding-top: 3rem;
+    padding-left: 6rem;
+}
+
+@media (min-width: 1000px) {
+	.custom-navbar {
+	    -ms-flex-flow: row nowrap;
+	    flex-flow: row nowrap;
+	    -ms-flex-pack: start;
+	    justify-content: flex-start;
+	}
+
+	.custom-navbar .navbar-toggler {
+	    display: none;
+	}
+	.custom-navbar .navbar-collapse {
+	    display: -ms-flexbox!important;
+	    display: flex!important;
+	    -ms-flex-preferred-size: auto;
+	    flex-basis: auto;
+	}
+    .custom-navbar .navbar-nav {
+	    -ms-flex-direction: row;
+	    flex-direction: row;
+	}
+
+	.custom-navbar .navbar-brand {
+		margin-left: 147px;
+	}
+}
+
+.custom-navbar {
+	padding: 9px 12px;
+}
+
+.navbar .icon {
+	color:grey;
+}
+
+.navbar .navbar-brand {
+	letter-spacing: 1px;
+}
+
+.navbar .navbar-brand .white {
+	margin-left: -4px;
+    letter-spacing: 1.5px;
+}
+
+.navbar .navbar-brand .white {
+	margin-left: -4px;
+    letter-spacing: 1.5px;
+}
+
+.navbar .navbar-nav .nav-item {
+	width: 10rem;
+}
+
+
+/*
+.navbar .icon:hover {	
+	color:white;
+}
+*/
+.navbar .text-icon {
+	font-style: arial;
+	color:grey;
+}
+
+/*.navbar .text-icon:hover {
+	color:white;
+}*/
+
+.navbar .menu-button:hover .icon,
+.navbar .menu-button:hover .text-icon {
+	color:white;
+}
+
+.navbar .menu-button {
+	border: 0;
+    background: none;
+    box-shadow: none;
+    background-color: black;
+}
+
+.navbar .searchbar-wrapper {
+	position: relative;
+}
+
+.navbar .searchbar-wrapper .searchpanel {
+	width:190px;
+	/*background-image: url('E:/Docs/mockup hicasting (img to html)-20180114T164143Z-001/mockup hicasting (img to html)/zoom.png');
+	background-repeat: no-repeat;
+    background-position: 165px;  */
+    background-color: black;  
+    /*background-size: 10%;*/
+    border-radius: 8px;
+    color:grey;
+    border: 1px solid grey;
+    padding: 5px 20px 5px 10px;
+}
+
+.navbar .searchbar-wrapper .icon {
+	position: absolute;
+    right: 7px;
+    top: 31%;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.navbar .menu-button .menu-button-icon {
+    /*margin-left:1rem;*/
+    margin-top: 0.8rem;
+    /*font-style: arial;*/
+}
+
+.navbar .menu-button .menu-button-text {
+	font-style: arial;
+	font-family: Open Sans;
+	/*font-size: 	1.4rem;*/
+}
+
+.navbar .heart-button {
+    margin-top:0.4rem !important;
+    background-color: black;
+    border:none;
+}
+
+.navbar .navbar-nav .superheart {
+	width: 13rem;
+	display:inline-block;
+}
+
+.navbar .right-buttons {
+    margin-top: 0.4rem !important;
+    background-color: black;
+    border:none;
+}
+
+.navbar .nav-first-list{
+	margin-right: 2rem;
+}
+
+
+.content .card_style {
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.content .header .headertext {
+	font-size:2rem;
+	display:inline-block;
+	font-weight: bold;
+	color:grey;
+	padding-left:15px;
+	padding-right: 15px;
+}
+
+.content .header .resettext {
+	color:grey;
+	padding-left:7px;
+	display:inline-block;
+}
+.content .header .resetbtn {
+	background-color: white;
+	border:1px solid grey;
+	padding:5px;
+}
+
+.content .headline {
+	border-bottom: 2px solid grey;
+	font-size:1.2rem;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.content .card__user .card__username {
+	font-size:1.4rem;
+	font-weight: bold;
+	color:black;
+	padding-top:10px;
+	line-height: 1.3;
+}
+
+.content .card__user .card__profession {
+	color:grey;
+	font-weight: bold;
+	font-size:1.1rem;
+}
+
+.content .card__user .card__address {
+	padding-top:7px;
+}
+
+.content .card__user .card__selector {
+	margin-top:10px;
+}
+
+.content .card__stat .card__details {
+  
+}
+
+.content .head-card-stat {
+	font-weight: bold;
+	font-size:1.2rem;
+	color:#324BE5 !important;
+}
+
+.content .card__stat .card__stat-list {
+	padding: 0;
+	list-style: none;
+	margin: 0;
+}
+
+.content .card__stat .card__stat-list li {
+	margin: 0;
+}
+
+.content .card__stat .card__stat-list li .card__stat-item__name {
+	padding: 0;
+}
+
+.content .card__stat .card__stat-list li .card__stat-item__value {
+	padding: 0;
+}
+
+.content .card__stat .card__stat-list .card__det-list {
+	padding:0px;
+
+}
+
+.content .card__stat .card_stat-item__button {
+	background-color: #32b2e6;
+	font-weight: bold;
+	color:white;
+	font-size: 1.4rem;
+	margin-top: 25px;
+	padding-bottom: 5px;
+}
+
+.content .card__details {
+	padding:0px;
+}
+
+.content .card__details .card__det-list .bold-style  {
+	font-weight:bold;
+}
+
+.content .card__details .card__det-list .card__payments_request {
+	margin-top:10px;
+	margin-bottom:10px; /*не работает*/
+}
+/*
+ #seachinput.clickedclass  {
+	background-color: black; 
+	background-image: none;
+}*/
+
+/*.clickedclass {
+	background-color: white; 
+	color:black;
+}*/
+ #seachinput:focus {
+ 	background-color: red;
+ }
+
+.indent {
+	color:grey;
+}
+
+.indent:hover {
+	color:white; 
+    }
+
+ .iconActive {
+ 	display:inline-block !important;
+ }
+

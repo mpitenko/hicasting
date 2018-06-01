@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href=".\font-awesome-4.7.0\font-awesome-4.7.0\css\font-awesome.min.css">
+
+    <link href="E:\Docs\mockup hicasting (img to html)-20180114T164143Z-001\mockup hicasting (img to html)\style.css" rel="stylesheet">
+   </head>
+  <body>
+
+   <nav class="custom-navbar navbar 77navbar-expand-lg navbar-dark" style="background-color:black">
+      
+      <!--<div class = 'logo orange'>HI</div><div class = 'white'>CASTING</div> -->
+
+      <!-- <span class="col-md-3 col-sm-0"></span> -->
+
+      <a class="navbar-brand" href="#">
+        <span class = 'orange'>HI</span>
+        <span class = 'white'>CASTING</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar1">
+        <ul class="navbar-nav nav-first-list">
+          <li class="nav-item">
+             <button class="menu-button">
+             <i class="fa fa-eye white icon menu-button-icon" aria-hidden="false"></i>
+             <span class="text-icon menu-button-text">МЕРОПРИЯТИЯ</span>
+            </button>
+          </li>
+          <li class="nav-item">
+             <button class="menu-button">
+             <i class="fa fa-bar-chart white icon menu-button-icon" aria-hidden="false"></i>
+             <span class="text-icon menu-button-text">УЧАСТНИКИ</span>
+            </button>
+          </li>
+          <li class="nav-item">
+             <button class="menu-button">
+             <i class="fa fa-book white icon menu-button-icon" aria-hidden="false"></i>
+             <span class="text-icon menu-button-text">ЖУРНАЛ</span>
+            </button>
+          </li>
+        </ul>  
+
+        <div class="searchbar-wrapper">
+           <input class = 'searchpanel' type="search" placeholder="Поиск людей и мероприятий" aria-label="Search">
+           <i class="icon fa fa-search"></i>
+        </div> 
+
+          <!-- <ul class="navbar-nav mr-auto"> -->
+          <ul class="navbar-nav mr-auto">
+            <li class = 'superheart'>
+                <button class="heart-button">
+                  <i class="fa fa-heart white indent" aria-hidden="false"></i>
+                </button>
+                <img src="img/img2.jpg">
+                <div class='grey'>Esteban Montoya</div>
+            </li>
+            
+            <li>
+              <button class="right-buttons">
+               <i class="fa fa-envelope white" aria-hidden="false"></i>
+              </button>
+            </li>
+            <li>
+              <button class="right-buttons">
+               <i class="fa fa-bell white" aria-hidden="false"></i>
+              </button>
+            </li>
+          </ul>
+
+
+
+          <form class="form-inline my-2 my-lg-0">
+              <button class="right-buttons cog-button"> 
+               <i class="fa fa-cog white" aria-hidden="false"></i>
+              </button>
+          </form>
+
+
+
+      </div>
+  </nav>
+
+
+  <!-- <div class="content">
+
+  <div class ='header'>
+    <div class ='headertext'>Мои подписки</div>
+    <div class ='headertext'>Мне подойдёт</div><br>
+    <div class = 'resettext'>все мероприятия, модели</div>
+    <button class='resetbtn'>Сбросить</button>
+  </div>
+
+    
+    <ul class="cards-list container">
+      <li class="card-item row">
+        
+        <div class="card_style card__user col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+          <div class = 'headline'>УЧАСТНИК</div>
+          <div class="card__inmage"></div>
+          <div class="card__username">Патриция <br> Лански</div>
+          <div class="card__profession">топ модель</div>
+          <div class="card__address">агент: hicasting<br>
+                                     Россия, Москва -4.5 км</div>
+          <select class="card__selector">
+            <option>СЕРВИСЫ</option>
+            <option>Пункт 2</option>
+          </select>
+
+
+        </div>
+
+        <div class="card_style card__stat col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+          <div class = 'headline'>СТАТИСТИКА</div>
+
+          <ul class="card__stat-list container">
+            <li class="row">
+              <span class="col-10 head-card-stat card__stat-item__name">Рейтинг общий по сайту</span>
+              <span class="col-2 head-card-stat card__stat-item__value">8000</span>
+            </li>
+
+            <li class="row">
+              <span class="col-10 card__stat-item__name">Подписан</span>
+              <span class="col-2 card__stat-item__value">1000</span>
+            </li>
+
+            <li class="row">
+              <span class="col-10 card__stat-item__name">Последователи</span>
+              <span class="col-2 card__stat-item__value">100100</span>
+            </li>
+
+            <li class="row">
+              <span class="col-10 card__stat-item__name">Участвует в группах</span>
+              <span class="col-2 head-card-stat card__stat-item__value">25</span>
+            </li>
+
+            <li class="row">
+              <span class="col-10 card__stat-item__name">Просмотров</span>
+              <span class="col-2 head-card-stat card__stat-item__value">78</span>
+            </li>
+          </ul>
+
+          <button class="card_stat-item__button">
+            Подписаться
+          </button>
+        </div>
+
+        <div class="card_style card__details col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <div class = 'headline'>ДЕТАЛИ</div>
+          <ul class="card__det-list">
+            <li>
+              <span class="card__proff_details head-card-stat">Фотосъёмка, видеосъёмка, показ мод, выставки, презентации, боди-арт, съемки для полиграфии, промо, цирк на выезде с домашними животными</span><br>
+              <span class="card__payments_request">интересует гоноррар от 20 дол в день</span><br>
+              <span class="card__data">
+                <span>опыт работы:</span>
+                <span class='bold-style'>большой</span>
+                <span>, пол:</span>
+                <span class='bold-style'>женский,</span>
+                <span>возраст:</span>
+                <span class='bold-style'>24,</span>
+                <span>рост:</span>
+                <span class='bold-style'>177,</span>
+                <span>вес:</span>
+                <span class='bold-style'>50,</span>
+                <span>параметры:</span>
+                <span class='bold-style'>90/60/90,</span>
+                <span>типаж:</span>
+                <span class='bold-style'>европейский,</span>
+                <span>тип лица:</span>
+                <span class='bold-style'>овал,</span>
+                <span>телосложение:</span>
+                <span  class='bold-style'>нормальное,</span>
+                <span >длина волос:</span>
+                <span class='bold-style'>длинные,</span>
+                <span>цвет волос:</span>
+                <span class='bold-style'>русые,</span>
+                <span>цвет глаз:</span>
+                <span class='bold-style'>карие,</span>
+                <span>цвет кожи:</span>
+                <span class='bold-style'>светлый,</span>
+                <span>размер одежды:</span>
+                <span class='bold-style'>40-42,</span>
+                <span>размер обуви:</span>
+                <span class='bold-style'>37,5-38...</span>
+               </span>
+            </li>
+        </div>
+
+        </li>
+    </ul>
+
+  </div><!--end of content -->
+
+  </body>
+
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.4/lodash.min.js"></script>
+
+  <script src="E:\Docs\mockup hicasting (img to html)-20180114T164143Z-001\mockup hicasting (img to html)\base.js"></script> 
+
+</html>

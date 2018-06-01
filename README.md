@@ -1,16 +1,27 @@
 # hicasting
 
+
+
+
+
+
+
+# GIT
+
 ## Create git in a folder
+
 ```
 git init
 ```
 
 ## Link an existing GIT repo
+
 ```
 git remote add origin git@github.com:mpitenko/hicasting.git
 ```
 
 ## Save changes
+
 ```
   // check status of the files in the directory
   git status
