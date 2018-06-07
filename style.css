@@ -63,6 +63,10 @@
 	display:inline-block;
 }
 
+.grey {
+	color:grey;
+}
+
 .orange {
 	color:orange;
 	display:inline-block;
@@ -78,6 +82,7 @@
     padding-left: 6rem;
 }
 
+/*@media (min-width: 1180px) {*/
 @media (min-width: 1000px) {
 	.custom-navbar {
 	    -ms-flex-flow: row nowrap;
@@ -105,6 +110,7 @@
 	}
 }
 
+
 .custom-navbar {
 	padding: 9px 12px;
 }
@@ -127,9 +133,20 @@
     letter-spacing: 1.5px;
 }
 
-.navbar .navbar-nav .nav-item {
-	width: 10rem;
+.navbar .navbar-nav .nav-item{
+    width: 10rem;
+    /*margin-right: 0.8rem;*/
 }
+
+.navbar .navbar-nav .journal{
+    margin-right: 2rem;
+}
+
+
+
+.navbar .navbar-nav .esteban {
+	margin-left: 1.5rem;
+} 
 
 
 /*
@@ -160,10 +177,11 @@
 
 .navbar .searchbar-wrapper {
 	position: relative;
+	margn-right: 7.5rem !important;
 }
 
 .navbar .searchbar-wrapper .searchpanel {
-	width:190px;
+	width:220px;
 	/*background-image: url('E:/Docs/mockup hicasting (img to html)-20180114T164143Z-001/mockup hicasting (img to html)/zoom.png');
 	background-repeat: no-repeat;
     background-position: 165px;  */
@@ -173,11 +191,12 @@
     color:grey;
     border: 1px solid grey;
     padding: 5px 20px 5px 10px;
+    margin-right:7.5rem;	
 }
 
 .navbar .searchbar-wrapper .icon {
 	position: absolute;
-    right: 7px;
+    right: 98px;
     top: 31%;
     font-size: 1rem;
     color: #fff;
@@ -202,7 +221,7 @@
 }
 
 .navbar .navbar-nav .superheart {
-	width: 13rem;
+	width: 15rem;
 	display:inline-block;
 }
 
@@ -211,6 +230,11 @@
     background-color: black;
     border:none;
 }
+
+.navbar .right-buttons .onhoverwhite:hover {
+	color:white;
+}
+
 
 .navbar .nav-first-list{
 	margin-right: 2rem;
@@ -227,19 +251,39 @@
 	display:inline-block;
 	font-weight: bold;
 	color:grey;
-	padding-left:15px;
+	padding-left:14px;
 	padding-right: 15px;
+	font-size: 2.5rem;
+    margin-right: -0.5rem;
+    letter-spacing: -1.5px;
 }
 
+.content .header .flow {
+    margin-left: 13rem;
+    margin-top: 0.7rem;
+    font-size: 2.5rem;
+    letter-spacing: -2px;
+}
+
+.content .header .header_selector {
+      margin-left: 14.7rem;
+      border: 0px solid white;
+      color:grey;	
+}
+
+
 .content .header .resettext {
-	color:grey;
-	padding-left:7px;
-	display:inline-block;
+	color: grey;
+    padding-left: 11px;
+    display: inline-block;
+    margin-top: 1rem;
+    letter-spacing: 0.8px;
 }
 .content .header .resetbtn {
 	background-color: white;
-	border:1px solid grey;
-	padding:5px;
+    border: 1px solid grey;
+    padding: 5px;
+    margin-left: 1.5rem;
 }
 
 .content .headline {

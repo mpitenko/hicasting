@@ -34,3 +34,15 @@ git remote add origin git@github.com:mpitenko/hicasting.git
   // send the commit to the repo with the name 'origin' to the branch 'master'
   git push origin master
 ```
+
+## See list of commits
+
+```
+git log
+```
+
+## Get changes from remote repo
+
+```
+git pull origin master
+```
