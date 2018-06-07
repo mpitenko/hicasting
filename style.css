@@ -108,6 +108,14 @@
 	.custom-navbar .navbar-brand {
 		margin-left: 147px;
 	}
+
+	.content .header .headertext { /*эти стили не работают*/
+	font-size: 1rem;
+    }
+
+    .content .header .flow {
+     margin-left: 0rem;
+    }
 }
 
 
@@ -247,7 +255,7 @@
 }
 
 .content .header .headertext {
-	font-size:2rem;
+	font-size: 2.5rem;
 	display:inline-block;
 	font-weight: bold;
 	color:grey;
@@ -261,7 +269,6 @@
 .content .header .flow {
     margin-left: 13rem;
     margin-top: 0.7rem;
-    font-size: 2.5rem;
     letter-spacing: -2px;
 }
 
@@ -289,15 +296,42 @@
 .content .headline {
 	border-bottom: 2px solid grey;
 	font-size:1.2rem;
-	padding-left:15px;
+	padding-left: 0;
 	padding-right:15px;
+}
+
+.content .cards-list .card-item .image1 {
+   width: 75px;
+    height: 75px;
+}
+
+.content .cards-list .card-item .image1_box {
+	position:relative;
+	margin-left: 9rem;
+    margin-top: 6rem;
+}
+
+.content .cards-list .card-item .image1_inscription  {
+	background-color:#f7d089;
+	color:black;
+	width: 75px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 55px;
+    text-align: center;
+}
+
+.content .card__user {
+	margin-left: 1.6rem;
+    margin-top: 2rem;
 }
 
 .content .card__user .card__username {
 	font-size:1.4rem;
 	font-weight: bold;
 	color:black;
-	padding-top:10px;
+	padding-top: 18px;
 	line-height: 1.3;
 }
 
@@ -308,11 +342,14 @@
 }
 
 .content .card__user .card__address {
-	padding-top:7px;
+	padding-top: 3px;
 }
 
 .content .card__user .card__selector {
-	margin-top:10px;
+	margin-top: 24px;
+    font-size: 1.15rem;
+    width: 162px;
+    height: 25px;
 }
 
 .content .card__stat .card__details {
