@@ -11,8 +11,7 @@
 function init() {
 	  //document.getElementById("seachinput").value='Поиск людей по мероприятию';
 	  // var π = 3.14;
-	  /*copyContent(2);*/
-	  ;
+	  copyContent(2);
 };
 
 
